@@ -1,0 +1,19 @@
+# R files
+*.Rdata
+.Rproj.user
+*.Rproj
+.Rhistory
+
+# From wear repo, need to adapt to polk repo as it is built
+# data
+data/input/*
+!data/input/download_fits_s3.sh
+!data/input/RDE Vorbereitung.xlsx
+!data/input/README.md
+data/processed/*
+!data/processed/README.md
+data/output/dsn_path.json
+
+# secret files
+secret.txt
+user.txt
